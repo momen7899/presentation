@@ -215,8 +215,8 @@ a:focus {
 .slide {
     display: block;
 
-    width: 900px;
-    height: 700px;
+    width: 950px;
+    height: 750px;
     padding: 40px 60px;
 
     background-color: white;
@@ -672,3 +672,23 @@ a:focus {
     Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
     for you.
 */
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+.column-activity {
+  float: left;
+  width: 25%;
+  margin: 10px;
+  padding: 15px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
