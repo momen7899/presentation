@@ -679,6 +679,13 @@ a:focus {
   padding: 5px;
 }
 
+.columnSecond {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 25px;
+}
+
 .column-activity {
   float: left;
   width: 25%;
